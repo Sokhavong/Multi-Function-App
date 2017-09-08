@@ -1,2 +1,2 @@
-# Multi-Function-Calculator
-Calculator with many functions
+# Multi-Function-App
+Currently in development mode
