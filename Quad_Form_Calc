@@ -1,0 +1,26 @@
+print("""
+Hi and welcome to Quadratic equation calculator
+
+
+The equation will be axˆ2 + bx + c
+
+This program will output 2 x as it is a quadratic equation
+
+Please enter variable \"a\":
+""")
+a=int(input("Variable A: "))
+
+print("Enter variable \"B:\"")
+b=int(input("Variable B:"))
+
+print("Enter variable \"C:\"")
+c=int(input("Variable C:"))
+
+x_1=0
+x_2=0
+
+x_1= (-b+((b)**2-4*a*c)**(1/2))/(2*(a))
+x_2= (-b-((b)**2-4*a*c)**(1/2))/(2*(a))
+print("Your equation is: " "x =", a, "xˆ2", " + ", b, "x", " + ",c, " = 0" )
+print("First x value: ", x_1)
+print("Second x value: ", x_2)
